@@ -12,8 +12,11 @@ pip3 install PyPDF2
 
 ## ⚙️ Usage
 
+First argument: [Y/N] depending if you want a watermark (from watermark.pdf) in the output file.
+Second argument: 1 to n PDF files to merge and mark if needed.
+
 ```
-python JPGtoPNGconverter.py [Y/N] [PDF files]
+python pdf-merger.py [Y/N] [PDF files]
 ```
 
 ## 📜 Documentation and examples
