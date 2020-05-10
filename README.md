@@ -10,7 +10,7 @@
 pip3 install PyPDF2
 ```
 
-## ⚙️ Usage
+## ⚙️ Usage and example
 
 - First argument: [Y/N] depending if you want a watermark (from watermark.pdf) in the output file.
 - Second argument: 1 to n PDF files to merge and mark if needed.
@@ -19,12 +19,12 @@ pip3 install PyPDF2
 python pdf-merger.py [Y/N] [PDF files]
 ```
 
-## 📜 Documentation and examples
-
-Check out the [PyPDF2 Documentation](https://pythonhosted.org/PyPDF2/).
-
-Example:
+- Example:
 
 ```
 python pdf-merger.py Y dummy.pdf dummy_2.pdf
 ```
+
+## 📜 Documentation
+
+Check out the [PyPDF2 Documentation](https://pythonhosted.org/PyPDF2/).
